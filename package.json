@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:SolyomRichard/Next.js-Tutorial.git"
+    "url": "git+ssh://git@github.com/SolyomRichard/Next.js-Tutorial.git"
   },
   "private": true,
   "scripts": {
