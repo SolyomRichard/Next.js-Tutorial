@@ -1,9 +1,18 @@
 {
+  "name": "Next.js-Tutorial",
+  "version": "0.0.0-dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:SolyomRichard/Next.js-Tutorial.git"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "push": "npx @open-sauced/conventional-commit"
   },
   "dependencies": {
     "clsx": "^1.2.1",
@@ -13,6 +22,7 @@
     "swr": "^2.0.3"
   },
   "devDependencies": {
+    "@open-sauced/conventional-commit": "^1.0.1",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "sass": "^1.58.0",
